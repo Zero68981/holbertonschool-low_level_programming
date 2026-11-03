@@ -4,11 +4,10 @@
 /**
  * reset_to_98 - updates the values pointed to by n to 98
  *@n: pointer to an integer
- * 
- * Return: Void
- */
-int main(void)
+*
+* Return: Void
+*/
+void reset_to_98(int *n)
 {
-void reset_to_98 (int *n);
-    *n = 98;
+*n = 98;
 }
