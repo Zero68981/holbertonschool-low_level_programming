@@ -1,0 +1,1 @@
+lear about the basic of pointer,array and string
