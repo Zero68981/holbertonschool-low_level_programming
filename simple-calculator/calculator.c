@@ -75,11 +75,11 @@ printf("Result: %d\n", a * b);
 if (choice == 4)
 {
 printf("A: ");
-if (scanf("%d", &A) != 1)
+if (scanf("%d", &a) != 1)
 return (1);
 
 printf("B: ");
-if (scanf("%d", &B) != 1)
+if (scanf("%d", &b) != 1)
 return (1);
 
 if (B == 0)
@@ -88,7 +88,7 @@ printf("Error: division by zero\n");
 }
 else
 {
-printf("Result: %g\n", (double) A / B);
+printf("Result: %g\n", (double) a / b);
 }
 }
 
