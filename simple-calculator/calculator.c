@@ -60,6 +60,18 @@ if (choice == 1)
 
 		printf("Result: %d\n", a - b);
 	}
+	if (choice == 3)
+		{
+			printf("A: ");
+			if (scanf("%d", &a) != 1)
+				return (1);
+
+			printf("B: ");
+			if (scanf("%d", &b) != 1)
+				return (1);
+
+			printf("Result: %d\n", a * b);
+		}
 }
 return(0);
 }
