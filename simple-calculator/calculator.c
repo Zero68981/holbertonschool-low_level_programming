@@ -42,7 +42,7 @@ printf("a: ");
 if (scanf("%d", &a) != 1)
 return (1);
 
-printf("B: ");
+printf("b: ");
 if (scanf("%d", &b) != 1)
 return (1);
 
@@ -50,11 +50,11 @@ printf("Result: %d\n", a + b);
 }
 if (choice == 2)
 {
-printf("A: ");
+printf("a: ");
 if (scanf("%d", &a) != 1)
 return (1);
 
-printf("B: ");
+printf("b: ");
 if (scanf("%d", &b) != 1)
 return (1);
 
@@ -62,11 +62,11 @@ printf("Result: %d\n", a - b);
 }
 if (choice == 3)
 {
-printf("A: ");
+printf("a: ");
 if (scanf("%d", &a) != 1)
 return (1);
 
-printf("B: ");
+printf("b: ");
 if (scanf("%d", &b) != 1)
 return (1);
 
@@ -74,15 +74,15 @@ printf("Result: %d\n", a * b);
 }
 if (choice == 4)
 {
-printf("A: ");
+printf("a: ");
 if (scanf("%d", &a) != 1)
 return (1);
 
-printf("B: ");
+printf("b: ");
 if (scanf("%d", &b) != 1)
 return (1);
 
-if (B == 0)
+if (b == 0)
 {
 printf("Error: division by zero\n");
 }
