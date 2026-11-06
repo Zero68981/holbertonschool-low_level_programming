@@ -1,17 +1,21 @@
 #include <stdio.h>
 /**
  * main - display a simple calculator
- * Return: Always 0
+ * Return: always 0
  */
 
 int main(void)
 
+
 {
 int choice;
+int a;
+int b;
+
 printf("Simple Calculator\n");
 while (1)
 {
-printf("1) Add\n");
+printf("1) add\n");
 printf("2) Subtract\n");
 printf("3) Multiply\n");
 printf("4) Divide\n");
@@ -32,7 +36,18 @@ if (choice < 0 || choice > 4)
 printf("Invalid choice\n");
 continue;
 }
+if (choice == 1)
+		{
+			printf("a: ");
+			if (scanf("%d", &a) != 1)
+				return (1);
 
+			printf("B: ");
+			if (scanf("%d", &b) != 1)
+				return (1);
+
+			printf("Result: %d\n", a + b);
+		}
 }
 return(0);
 }
