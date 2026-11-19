@@ -40,5 +40,6 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
 void _puts_recursion(char *s);
 int sum_them_all(const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...);
 
 #endif /* MAIN_H*/
